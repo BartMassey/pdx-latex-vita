@@ -76,3 +76,11 @@
   \bibliographystyle{incite}
   \@bibliography{#1}
 }
+
+
+\newenvironment{education}{
+  \item
+  \begin{tabbing}
+}{
+  \end{tabbing}
+}
