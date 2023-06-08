@@ -14,6 +14,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{psu-vita}[2000/10/29]
 \LoadClass[11pt]{report}
+\RequirePackage{incite}
 
 \renewcommand{\labelitemi}{}
 \renewcommand{\labelitemii}{}
@@ -66,4 +67,12 @@
   \begin{center}{\large\bf CURRICULUM VITAE}\end{center}
   \begin{center}{\large\bf \@author}\\\@date\end{center}
   \medskip
+}
+
+\newcommand{\vitacite}[1]{\item{}\incite{#1}}
+
+\let\@bibliography=\bibliography
+\renewcommand{\bibliography}[1]{
+  \bibliographystyle{incite}
+  \@bibliography{#1}
 }
