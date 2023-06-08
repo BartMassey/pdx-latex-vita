@@ -64,6 +64,6 @@
 \renewcommand{\maketitle}{
   \thispagestyle{empty}
   \begin{center}{\large\bf CURRICULUM VITAE}\end{center}
-  \begin{center}{\large\bf \@author ~~~ \@date}\end{center}
+  \begin{center}{\large\bf \@author}\\\@date\end{center}
   \medskip
 }
