@@ -1,0 +1,176 @@
+%%% Bart Massey's Official PSU-Format Vita
+%%% For use with psu-vita.cls
+
+%%% The categories here are taken from the official source:
+%%% Portland State University Office of Academic Affairs
+%%% Promotion and Tenure Guidelines, Appendix I
+%%%   http://www.oaa.pdx.edu/OAADOC/PTGUIDE/Appendix/appendix1.html
+%%% as of 2000.
+%%%
+%%% Thanks to Sarah Mocas for the original
+%%% version of this formatting.
+%%% Bart Massey 2000/10/29
+
+%%% In 2023, the official template has been flattened: only
+%%% the major headings occur. Feel free to go with a flat
+%%% organization or keep this one, which seems moderately universal
+%%% and has been accepted by the University from me many times.
+%%% Bart Massey 2023/06/08
+
+\documentclass{psu-vita}
+\usepackage{incite}
+\usepackage{url}
+\newcommand{\vitacite}[1]{\item{}\incite{#1}}
+
+\date{January 1890}
+
+\author{Theodore Vitaee}
+\shortauthor{Theo Vitaee}
+
+\begin{document}
+\maketitle
+
+\begin{majorhead}{Education}
+\item
+\begin{tabbing}
+Ph.D.~~\=1800~~\=Computer Science, Unknown University\\
+M.S.\>1789\>Computer Science, Unknown University\\
+B.A.\>1788\>Computer Science, Reed College
+\end{tabbing}
+\end{majorhead}
+%
+\begin{majorhead}{Selected Employment}
+  \item 
+    Professorish, Department of Computer Science, 
+    Portland State University, Portland OR, 1801--present.
+  \item
+    Day Jobber, Electric Industries, Oshkeegun WM, 1785--1786.
+\end{majorhead}
+%
+\begin{majorhead}{Dissertation}
+  \item
+    \underline{FORTRAN The Barbarian}, June 1800.
+    \\
+    Advisor: Albert Turing, Unknown University.
+\end{majorhead}
+% Comment out sections that contain no content, as the
+% macros are not smart enough to do it.
+\begin{majorhead}{Refereed Publications or Other Creative Achievements}
+%  \begin{minorhead}{Books}
+%  \end{minorhead}
+%  \begin{minorhead}{Chapters}
+%  \end{minorhead}
+  \begin{minorhead}{Journal Articles}
+    \vitacite{quantifying}
+    \item
+      More on the LPU, with
+      B. C. Richards and D. Leight.
+      {\em Previous Generation Computing\/}
+      \mbox{1(2):300},
+      Schtumps 1840.
+  \end{minorhead}
+%
+  \begin{minorhead}{Conference Papers}
+  \end{minorhead}
+%
+  \begin{minorhead}{Workshop Papers}
+  \end{minorhead}
+  \begin{minorhead}{Book Reviews}
+  \end{minorhead}
+  \begin{minorhead}{Other}
+  \end{minorhead}
+\end{majorhead}
+%
+\begin{majorhead}{Non-Refereed Publications or Other Creative Achievements}
+  \begin{minorhead}{Books}
+  \end{minorhead}
+  \begin{minorhead}{Chapters}
+  \end{minorhead}
+  \begin{minorhead}{Workshop Papers}
+  \end{minorhead}
+  \begin{minorhead}{Articles}
+  \end{minorhead}
+  \begin{minorhead}{Book reviews}
+  \end{minorhead}
+  \begin{minorhead}{Completed works}
+  \end{minorhead}
+  \begin{minorhead}{Technical Reports}
+  \end{minorhead}
+  \begin{minorhead}{Professional Invited Talks}
+  \end{minorhead}
+  \begin{minorhead}{Other}
+  \end{minorhead}
+\end{majorhead}
+%
+%\begin{majorhead}{Presentations at Professional Meetings}
+%\end{majorhead}
+\begin{majorhead}{Honors, Grants and Fellowships}
+  \item Generous Donor (\$5), Super-Grant LPU Project,
+        Investigation of LPU Grant Conditions, 1805--1806.
+\end{majorhead} 
+%
+\begin{majorhead}{Other Research and Other Creative Achievements}
+  \item Software design and implementation,
+        The LPU Project, 1800--1850.  Developed 
+        software to support LPU construction.
+\end{majorhead}
+%
+\begin{majorhead}{Other Teaching, Mentoring and Curricular Achievements}
+  \begin{minorhead}{Courses Taught: PSU}
+    \item PSU CS 001: Nothing In Particular. Fall 1855,
+      Summer 1856.
+  \end{minorhead}
+%
+%  \begin{minorhead}{Courses Taught: Other}
+%  \end{minorhead}
+%
+% Students supervised, curriculum developed, commitee service.
+  \begin{minorhead}{Other Achievements}
+    \item Honors Undergraduate Thesis supervised: Joe Bob
+      Brigadoon, 1870. LPU Analysis.
+  \end{minorhead}
+\end{majorhead}
+%
+\begin{majorhead}{Other Community Outreach Achievements}
+  \begin{minorhead}{Invited Talks}
+  \item {\em Achieving LPU},
+    Portland PU User Group, November 1833.
+  \end{minorhead}
+  % Press appearance, group membership and participation, etc.
+  \begin{minorhead}{Other}
+  \end{minorhead}    
+\end{majorhead}
+%
+%\begin{majorhead}{Scholarly Works in Progress}
+%\end{majorhead}
+%
+%\begin{majorhead}{Significant Professional Development Activities}
+%\end{majorhead}
+%
+%%% XXX The Guide (at least the online version) seems to want
+%%% the next three to all be major headings, with the first
+%%% empty.  This seems dead wrong to me, so I'm ignoring it.
+%%% YMMV, in which case do the obvious thing.
+%%% Bart Massey <bart@cs.pdx.edu> 2000/10/29
+%
+\begin{majorhead}{Governance and Other Professionally-Related Service}
+  \begin{minorhead}{Governance Activities for the University,
+                     College, Department}
+    \item Member, Miscellaneous Committee, CS Department,
+      1831--1832, 1834--present.
+  \end{minorhead}
+  \begin{minorhead}{Departmental Service Activities}
+  \end{minorhead}
+%
+  \begin{minorhead}{Professionally-Related Service}
+    \item Program Committee, LPUConf XIV, Summer 1812.
+  \end{minorhead}
+\end{majorhead}
+%
+\begin{majorhead}{Memberships in Professional Societies}
+  \item Association for Computing Machinery, 1790--present.
+\end{majorhead}
+%
+\bibliographystyle{incite}
+\bibliography{template-vita}
+\end{document}
